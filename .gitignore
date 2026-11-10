@@ -1,0 +1,29 @@
+# Environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Private learning data and generated exports
+/Vocab Export/
+/outputs/
+/work/*
+!/work/test_*.py
+*.db-shm
+*.db-wal
+*.db-journal
+*.MOV
+*.mov
+*.mp4
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
